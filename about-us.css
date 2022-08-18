@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+body{
+  background-color: #D9D2E9;
+}
+.nav-bar {
+  list-style-type: none;
+  background-color: #345995;
+  margin: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo {
+  align-self: flex-start;
+  width: auto;
+  height: 75px;
+  padding: 10px 5px;
+}
+li a {
+  color: white;
+  font-family: 'Baloo 2', cursive;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+.home {
+  background-color:#E40365;
+  margin: 10px;
+  margin-left:auto;
+}
+.learn {
+  background-color:#FB4E3D;
+  margin: 10px;
+}
+.about-us {
+  background-color:#F4B332;
+  margin: 10px;
+}
+.profile {
+  background-color:#02CEA3;
+  margin: 10px;
+  margin-right: 20px;
+}
+.page {
+  font-family: 'Baloo 2', cursive;
+  margin: 20px;
+}
+h1 {
+  font-size: 50px;
+  background-color:#F4B332;
+  text-align: center;
+  color: white;
+  padding:5px 10px;
+}
+h2 {
+  font-size: 40px;
+  padding:0px 10px;
+  color:white;
+  margin:0px;
+}
+p {
+  background-color:white;
+  font-family: 'Baloo 2', cursive;
+  font-size: 30px;
+  padding:10px 15px;
+}
+img {
+  height:495px;
+  width:400px;
+  object-fit:cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-info-col {
+  width: 69%;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-info-col {
+  text-align: right;
+  width: 69%;
+}
+.sneha {
+  background-color:#02CEA3;
+}
+.michelle {
+  background-color:#E40365;
+}
+.kristen {
+  background-color:#FB4E3D;
+}
+
+
+

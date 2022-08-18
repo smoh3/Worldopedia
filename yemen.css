@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+body{
+  background-color: #D9D2E9;
+}
+.nav-bar {
+  list-style-type: none;
+  background-color: #345995;
+  margin: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo {
+  align-self: flex-start;
+  width: auto;
+  height: 75px;
+  padding: 10px 5px;
+}
+li a {
+  color: white;
+  font-family: 'Baloo 2', cursive;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 20px; 
+}
+.home {
+  background-color:#E40365;
+  margin: 10px;
+  margin-left:auto;
+}
+.learn {
+  background-color:#FB4E3D;
+  margin: 10px;
+}
+.about-us {
+  background-color:#F4B332;
+  margin: 10px;
+}
+.profile {
+  background-color:#02CEA3;
+  margin: 10px;
+  margin-right: 20px;
+}
+.page {
+  margin: 20px;
+  font-family: 'Baloo 2', cursive;
+}
+h1 {
+  font-size: 50px;
+  color:white;
+  padding:5px 10px;
+  text-align: center;
+  background-color:#02CEA3;
+}
+h2 {
+  font-size: 40px;
+  padding:0px 15px;
+  color:white;
+  margin:0px;
+}
+p {
+  background-color:white;
+  font-size: 27px;
+  padding:10px 15px;
+}
+.rows {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom: 15px;
+}
+.text-col {
+  width: 61.5%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ff {
+  background-color:#E40365; 
+}
+.dyk {
+  background-color:#FB4E3D; 
+}
+.map {
+  height:450px;
+  width: 450px;
+  object-fit: cover;
+  border-style:solid;
+  border-color:#345995;
+  border-width: 25px;
+}
+.culture-pic {
+  height:480px;
+  width: 400px;
+  object-fit: cover;
+  border-style:solid;
+  border-color:#345995;
+  border-width: 25px;
+}
+.culture-text-col {
+  text-align: right;
+  width: 65%;
+}
+.culture {
+  background-color:#F4B332; 
+}
+.issues-text-col {
+  width: 69%;
+  display:flex;
+  flex-direction:column;
+}
+.issues {
+  background-color: #02CEA3
+}
+.issues-pic-col {
+  display:flex;
+  flex-direction:column;
+  align-items: flex-end;
+}
+.issues-pic {
+  height:475px;
+  width: 450px;
+  object-fit: cover;
+  border-style:solid;
+  border-color:#345995;
+  border-width: 25px;
+}
+.co {
+  width:88.5%;
+  background-color: #E40365;
+  color: white;
+  text-align: center;
+}

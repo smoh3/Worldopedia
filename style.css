@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+body{
+  background-color: #D9D2E9;
+}
+.nav-bar {
+  list-style-type: none;
+  background-color: #345995;
+  margin: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo {
+  align-self: flex-start;
+  width: auto;
+  height: 75px;
+  padding: 10px 5px;
+}
+li a {
+  color: white;
+  font-family: 'Baloo 2', cursive;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+.home {
+  background-color:#E40365;
+  margin: 10px;
+  margin-left:auto;
+}
+.learn {
+  background-color:#FB4E3D;
+  margin: 10px;
+}
+.about-us {
+  background-color:#F4B332;
+  margin: 10px;
+}
+.profile {
+  background-color:#02CEA3;
+  margin: 10px;
+  margin-right: 20px;
+}
+.page {
+  margin: 20px;
+  font-family: 'Baloo 2', cursive;
+}
+h1{
+  font-size: 50px;
+  color:white;
+  padding:5px 10px;
+  background-color: #E40365;
+  text-align: center;
+}
+.keeptitle {
+  background-color: #FB4E3D;
+}
+.formtitle {
+  background-color:#02CEA3;
+}
+p {
+  font-size: 30px;
+  background-color: white;
+  padding: 20px;
+}
+.directprofile{
+  text-align:center;
+  font-family: 'Baloo 2', cursive;
+  font-size: 40px;
+  color:white; 
+  background-color:#F4B332;
+  padding:10px 15px;
+  border:none;  
+
+}
+.submit-btn{
+  display: block;
+  margin-top:20px;
+  margin-bottom:20px;
+  color:white;
+  background-color:#E40365;
+  font-size:25px;
+  font-family: 'Baloo 2', cursive;
+  padding:10px 15px;
+}
+.submit-btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bluelines{
+  background-color:#345995;
+  padding:10px;
+}
+.middlesection {
+  text-align: center;
+}
+.formbox{
+  height:50px;
+  width:97.5%;
+  text-align:left;
+  font-family: 'Baloo 2', cursive;
+  font-size: 25px;
+  padding:0px 15px;
+}
+.formsection {
+  text-align: center;
+}
+#demo {
+  display:none;
+  padding-top: 5px;
+  padding-bottom:5px;
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+body{
+  background-color: #D9D2E9;
+}
+.nav-bar {
+  list-style-type: none;
+  background-color: #345995;
+  margin: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo {
+  align-self: flex-start;
+  width: auto;
+  height: 75px;
+  padding: 10px 5px;
+}
+li a {
+  color: white;
+  font-family: 'Baloo 2', cursive;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+.home {
+  background-color:#E40365;
+  margin: 10px;
+  margin-left:auto;
+}
+.learn {
+  background-color:#FB4E3D;
+  margin: 10px;
+}
+.about-us {
+  background-color:#F4B332;
+  margin: 10px;
+}
+.profile {
+  background-color:#02CEA3;
+  margin: 10px;
+  margin-right: 20px;
+}
+.content {
+  margin:20px;
+  font-family: 'Baloo 2', cursive;
+}
+h1 {
+  font-size: 50px;
+  color:white;
+  padding:5px 10px;
+  text-align: center;
+}
+.profileTitle {
+  background-color:#02CEA3;
+}
+.submit{
+  display: inline-block;
+  color:white;
+  background-color: #FB4E3D;
+  font-size:35px;
+  padding:10px;
+  font-family: 'Baloo 2', cursive;
+}
+.nameform{
+  display:inline-block;
+  font-size: 35px;
+}
+.badgesTitle {
+  background-color:#E40365;
+}
+.container {
+  display:inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+.pic {
+  height:200px;
+  width:300px;
+  object-fit:cover;
+  margin-bottom:50px;
+}
+.container .btn {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  /* height:100px;
+  width:200px; */
+  height:200px;
+  width:300px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 0.85;
+  color: white;
+  font-family: 'Baloo 2', cursive;
+  font-size: 25px;
+  padding: 75px 90px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.badgePics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.namelabel {
+  background-color: #F4B332;
+  color: white;
+  padding:10px;
+}
+.nameinput {
+  font-size: 35px;
+  padding:10px;
+  font-family: 'Baloo 2', cursive;
+}
+.outputText {
+  font-size: 30px;
+  background-color:#345995;
+  margin-bottom:30px;
+  color:white;
+  padding: 10px;
+}
